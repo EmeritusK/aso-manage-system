@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  --color-white: #fff;
+  --color-grey-background: #f8f9fa;
+  --color-grey-text: #495057;
+  --color-grey-text-selected: #444a50;
+  --color-grey-border: #e9ecef;
+  --font-display: "Roboto", sans-serif;
+}
+
+body {
+  @apply font-display;
+}
